@@ -1,12 +1,19 @@
 // require express
 const express = require('express');
+// require routes
+const routes = require('./routes');
 
-// create PORT variable, flexible for deployment environment
+// define PORT
 const PORT = process.env.PORT || 3001;
-// store express instance in app
+// assign express() to app
 const app = express();
 
+// use express.json()
+app.use(express.json());
+// use routes
+app.use(routes);
+
+// listen on port
 app.listen(PORT, () => {
-    // log success message to console
     console.log(`API server running on ${PORT}`);
 });
