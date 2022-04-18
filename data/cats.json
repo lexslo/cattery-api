@@ -22,21 +22,7 @@
       "temperament": "Sleepy"
     },
     {
-      "id": "3",
-      "name": "Star",
-      "breed": "Persian",
-      "color": "White",
-      "temperament": "Aggressive"
-    },
-    {
       "id": "4",
-      "name": "Henry",
-      "breed": "Unknown",
-      "color": "Tortoise Shell",
-      "temperament": "Docile"
-    },
-    {
-      "id": "5",
       "name": "Pogo",
       "breed": "Siamese",
       "color": "Flamepoint",

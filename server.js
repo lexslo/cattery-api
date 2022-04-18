@@ -8,7 +8,10 @@ const PORT = process.env.PORT || 3001;
 // assign express() to app
 const app = express();
 
-// use express.json()
+// set up middleware functions
+// parse incoming data, look out for nested arrays
+app.use(express.urlencoded({ extended: true }));
+// take incoming POST data as JSON and parse it into the req.body object
 app.use(express.json());
 // use routes
 app.use(routes);
