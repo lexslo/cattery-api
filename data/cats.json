@@ -1,0 +1,25 @@
+{
+    "cats": [
+        {
+            "id": "0",
+            "name": "Mew",
+            "breed": "American Shorthair",
+            "color": "Gray Tabby",
+            "temperament": "Shy"
+        },
+        {
+            "id": "1",
+            "name": "Lola",
+            "breed": "Russian Blue",
+            "color": "Gray",
+            "temperament": "Social"
+        },
+        {
+            "id": "2",
+            "name": "Ziggy",
+            "breed": "Mixed",
+            "color": "Orange tabby",
+            "temperament": "Sleepy"
+        }
+    ]
+}

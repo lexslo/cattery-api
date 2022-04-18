@@ -1,0 +1,28 @@
+{
+    "volunteers": [
+        {
+            "id": "0",
+            "name": "Ash",
+            "schedule": [
+                "Monday",
+                "Wednesday"
+            ]
+        },
+        {
+            "id": "1",
+            "name": "Willow",
+            "schedule": [
+                "Tuesday",
+                "Thursday"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Raj",
+            "schedule": [
+                "Friday",
+                "Saturday"
+            ]
+        }
+    ]
+}
